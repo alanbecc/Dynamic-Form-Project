@@ -1,5 +1,6 @@
 
 
+import Introduction from './components/Introduction'
 import NavbarMenu from './components/NavbarMenu'
 
 
@@ -10,6 +11,7 @@ function App() {
 
     <div >
       <NavbarMenu />
+      <Introduction/>
     </div>
   )
 }
