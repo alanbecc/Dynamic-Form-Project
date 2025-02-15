@@ -19,7 +19,7 @@ export default function Introduction() {
                         </h4>
                         <div className="d-flex container-actions mt-5">
                             <div className="container-buttons">
-                                <Button className="p-3" onClick={()=> console.log("click Button")}>Get in touch</Button>
+                                <Button className="p-3" onClick={()=> console.log("click Button")}>Get in touch </Button>
                                 <Button className="p-3">Get in tuch</Button>
                             </div>
                             <div className="btn-start-create">
