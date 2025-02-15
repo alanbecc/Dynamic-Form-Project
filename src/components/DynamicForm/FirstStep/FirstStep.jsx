@@ -40,9 +40,9 @@ export default function FirstStep() {
   return (
     <div>
       <h2>Choose your favorite Fruit</h2>
-      <h4>Select your fruit and then click the button of 'Next Step'</h4>
+      <h4>Select your fruit and then click the button of Next Step</h4>
       <Container className="p-5 text-center">
-        <Row>
+        <Row >
           {fruits.map((fruit,index ) => (
               <CardFruit fruit={fruit} key={index} clickCard={clickCard} selectedcard={selectedCard} />
         ))}
